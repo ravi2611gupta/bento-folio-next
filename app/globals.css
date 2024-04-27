@@ -3,31 +3,43 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	--primary: #4770FF;
+	--black: #1A1F2C;
+	--light-black: #576076;
+	--white: #ffffff;
+	--dark-theme-bg: #000;
+	--dark-theme-black: #0E1018;
+	--dark-theme-white: #f0f2f5;
+	--dark-theme-light-white: rgba(240, 242, 245, 0.7);
+	--paragraph: #616670;
+	--background: #F0F2F5;
+	--font-weight: 400;
+	--line-height: 1.6em;
+	--transision: all 0.1s ease-out 0s;
+	--border: #DBDFE5;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+	color: var(--black);
+	overflow-x: hidden;
+	background-color: var(--background);
+	padding: 24px 0 24px 0;
+	min-height: 100vh; 
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.common-shape {
+	animation: rotateAnimation 60s infinite linear;
+}
+
+@keyframes rotateAnimation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+		/* Rotates the element 360 degrees */
+	}
 }
