@@ -14,7 +14,6 @@ module.exports = {
         'custom-bold': 600,
         'custom-extrabold': 700,
       },
-      
       colors: {
         'primary': '#4770FF',
         'black': '#1A1F2C',
@@ -29,7 +28,10 @@ module.exports = {
         'border': '#DBDFE5',
       },
       fontSize: {
-        'custom': '16px',
+        'small': '14px',
+        'medium': '16px',
+        'large': '22px',
+        'extra-large': '40px',
       },
       lineHeight: {
         'custom': '1.6em',
@@ -37,6 +39,30 @@ module.exports = {
       transitionProperty: {
         'custom': 'all 0.1s ease-out 0s',
       },
+      animation: {
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+        scrolling: "scrolling 12s linear infinite"
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+        scrolling: {
+          from: {
+            transform: "translateX(35%)"
+          },
+          to: {
+            transform: "translateX(calc(-100% - 1.5rem))"
+          }
+        }
+      },
+      
     },
   },
   plugins: [],

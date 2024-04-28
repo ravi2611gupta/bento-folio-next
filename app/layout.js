@@ -2,7 +2,7 @@ import Header from "@/components/common/Header";
 import "./globals.css";
 import {Bricolage_Grotesque} from 'next/font/google'
 import Footer from "@/components/common/Footer";
-import BackgroundShape from "@/components/ui/BackgroundShape";
+import BackgroundShape from "@/components/common/BackgroundShape";
 
 const bricolage = Bricolage_Grotesque({ subsets: ["latin"] });
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={bricolage.className}>
         <Header/>
-        <main>
+        <main className="max-w-7xl mx-auto mt-6">
         {children}
         <BackgroundShape/>
         </main>
