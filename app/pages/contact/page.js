@@ -1,8 +1,12 @@
+import PageWrapper from '@/components/common/hoc/PageWrapper'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>this is contact page</div>
+    <PageWrapper>
+      <h1>This is contact page</h1>
+      
+    </PageWrapper>
   )
 }
 

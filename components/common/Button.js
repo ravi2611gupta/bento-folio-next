@@ -23,7 +23,7 @@ const buttonVariants = cva(
 
 const Button = ({children, variant, className}) => {
   return (
-    <a href="#"  className={cn(buttonVariants({ variant, className }))}>
+    <a href="#" className={cn(buttonVariants({ variant, className }))}>
     {children}
   </a>
   )

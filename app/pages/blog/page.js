@@ -1,10 +1,13 @@
+import WorkTogetherSlider from '@/components/common/WorkTogetherSlider'
+import PageWrapper from '@/components/common/hoc/PageWrapper'
 import React from 'react'
 
 const page = () => {
   return (
-    <>
-    <p>this is blog page</p>
-    </>
+    <PageWrapper>
+      <h1>This is blog page</h1>
+      <WorkTogetherSlider/>
+    </PageWrapper>
   )
 }
 

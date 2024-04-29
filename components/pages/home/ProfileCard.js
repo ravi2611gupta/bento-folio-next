@@ -3,9 +3,9 @@ import Button from '@/components/common/Button'
 import { FaFacebook, FaPinterest, FaGithub, FaYoutube } from "react-icons/fa";
 import React from 'react'
 
-const ProfileCard = () => {
+const ProfileCard = ({sticky = false}) => {
     return (
-        <Card image="assets/img/images/profile.png" title="Cris Rayaan 👋">
+        <Card image="/assets/img/images/profile.png" sticky={sticky} title="Cris Rayaan 👋">
             <p>A Passionate <span>Full Stack Developer</span> 🖥️ & <span>Product Designer</span> having <span>12
                 years</span> of Experiences over 24+
                 Country Worldwide.</p>
