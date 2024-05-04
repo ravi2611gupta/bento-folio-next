@@ -18,11 +18,11 @@ export const WorkCards = () => {
                 </div>
                 <div className="flex gap-7 justify-between p-6">
                     <div>
-                        <a href="portfolio-details.html" className="text-large font-custom-semibold text-black mb-1">FlowSaaS - SaaS Application Tools</a>
+                        <a href="#" className="text-large font-custom-semibold text-black mb-1">FlowSaaS - SaaS Application Tools</a>
                         <p className="text-medium leading-[1.5em] text-light-black">SaaS App | UI UX Design</p>
                     </div>
                     <div className="visite-btn">
-                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="portfolio-details.html">Visit Site
+                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="#">Visit Site
                             <svg className="stroke-light-black ml-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
@@ -48,11 +48,11 @@ export const WorkCards = () => {
                 </div>
                 <div className="flex gap-7 justify-between p-6">
                     <div>
-                        <a href="portfolio-details.html" className="text-large font-custom-semibold text-black mb-1">FlowSaaS - SaaS Application Tools</a>
+                        <a href="#" className="text-large font-custom-semibold text-black mb-1">FlowSaaS - SaaS Application Tools</a>
                         <p className="text-medium leading-[1.5em] text-light-black">SaaS App | UI UX Design</p>
                     </div>
                     <div className="visite-btn">
-                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="portfolio-details.html">Visit Site
+                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="#">Visit Site
                             <svg className="stroke-light-black ml-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
@@ -78,11 +78,11 @@ export const WorkCards = () => {
                 </div>
                 <div className="flex gap-7 justify-between p-6">
                     <div>
-                        <a href="portfolio-details.html" className="text-large font-custom-semibold text-black mb-1">FlowArch - Architecture Service Website</a>
+                        <a href="#" className="text-large font-custom-semibold text-black mb-1">FlowArch - Architecture Service Website</a>
                         <p className="text-medium leading-[1.5em] text-light-black">UI UX Design | Development</p>
                     </div>
                     <div className="visite-btn">
-                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="portfolio-details.html">Visit Site
+                        <a className='flex items-center text-small text-light-black hover:text-primary leading-[1em]' href="#">Visit Site
                             <svg className="stroke-light-black ml-1" width="14" height="15" viewBox="0 0 14 15" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.91634 4.5835L4.08301 10.4168" stroke-linecap="round"
