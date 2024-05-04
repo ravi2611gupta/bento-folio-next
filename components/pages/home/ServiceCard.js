@@ -1,14 +1,9 @@
 import Card from '@/components/common/Card';
 import React from 'react'
 
-const services = [
-    { imgSrc: 'assets/img/icons/ui-ux.svg', alt: 'ui-ux', title: 'UI UX Design' },
-    { imgSrc: 'assets/img/icons/app.svg', alt: 'app', title: 'Mobile App' },
-    { imgSrc: 'assets/img/icons/prd-design.svg', alt: 'prd-design', title: 'Product Design' },
-    { imgSrc: 'assets/img/icons/branding.svg', alt: 'branding', title: 'Branding' }
-];
-
-const ServiceCard = () => {
+const ServiceCard = ({
+    services
+}) => {
     return (
         <Card title="Services I Offered">
             <div className="services-main">

@@ -42,7 +42,8 @@ module.exports = {
       animation: {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
-        scrolling: "scrolling 12s linear infinite"
+        scrolling: "scrolling 12s linear infinite",
+        customSpin: "customSpin 10s linear infinite",
       },
       keyframes: {
         marquee: {
@@ -59,6 +60,11 @@ module.exports = {
           },
           to: {
             transform: "translateX(calc(-100% - 1.5rem))"
+          }
+        },
+        customSpin: {
+          to: {
+            transform: "translate(-50%, -50%) rotate(1turn)"
           }
         }
       },

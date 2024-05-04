@@ -10,7 +10,9 @@ const PageWrapper = ({ children }) => {
             </div>
             <div className='w-2/3'>
                 <Card>
-                    {children}
+                    <div className='py-6'>
+                        {children}
+                    </div>
                 </Card>
             </div>
         </div>

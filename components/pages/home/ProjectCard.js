@@ -6,8 +6,8 @@ const ProjectCard = () => {
         <Card title="Recent Projects">
             <div className="project-item">
                 <div className="bg-background p-6 pb-0 rounded-lg overflow-hidden relative image">
-                    <img src="assets/img/projects/project-1.png" alt="project-1" className="rounded-lg rounded-br-none rounded-bl-none img-fluid w-100" />
-                    <a href="assets/img/projects/project-1.png"
+                    <img src="/assets/img/projects/project-1.png" alt="project-1" className="rounded-lg rounded-br-none rounded-bl-none img-fluid w-100" />
+                    <a href="/assets/img/projects/project-1.png"
                         className="full-image-preview gallery-popup absolute top-[50%] left-[50%] z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary -mt-[10px] transition-custom invisible opacity-0">
                         <svg className="w-[22px] h-[22px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
                             stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
@@ -22,8 +22,8 @@ const ProjectCard = () => {
            
             <div className="project-item mt-6">
                 <div className="bg-background p-6 pb-0 rounded-lg overflow-hidden relative image">
-                    <img src="assets/img/projects/project-2.png" alt="project-2" className="rounded-lg rounded-br-none rounded-bl-none img-fluid w-100" />
-                    <a href="assets/img/projects/project-2.png"
+                    <img src="/assets/img/projects/project-2.png" alt="project-2" className="rounded-lg rounded-br-none rounded-bl-none img-fluid w-100" />
+                    <a href="/assets/img/projects/project-2.png"
                         className="full-image-preview gallery-popup absolute top-[50%] left-[50%] z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center text-primary -mt-[10px] transition-custom invisible opacity-0">
                         <svg className="w-[22px] h-[22px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"
                             stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
