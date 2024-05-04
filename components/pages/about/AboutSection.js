@@ -10,7 +10,7 @@ export const AboutSection = ({
         <div className="w-full" style={{
           maxWidth: "unset"
         }}>
-          {title && <h1 className="text-extra-large font-custom-bold text-black leading-[0.9em] mb-6" dangerouslySetInnerHTML={{__html: title}} />}
+          {title && <h1 className="about-title text-extra-large font-custom-bold text-black leading-[0.9em] mb-6" dangerouslySetInnerHTML={{__html: title}} />}
           {desc && <p className='text-[18px] font-custom-regular leading-[1.5em]' dangerouslySetInnerHTML={{__html: desc}} />}
         </div>
         {available && <div style={{ flex: "0 0 auto" }}>

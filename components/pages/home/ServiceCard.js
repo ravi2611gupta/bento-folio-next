@@ -2,10 +2,11 @@ import Card from '@/components/common/Card';
 import React from 'react'
 
 const ServiceCard = ({
-    services
+    services,
+    title = "Services I Offered",
 }) => {
     return (
-        <Card title="Services I Offered">
+        <Card title={title}>
             <div className="services-main">
                 <div className="flex flex-wrap -m-1.5">
 

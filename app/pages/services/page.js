@@ -1,3 +1,4 @@
+import { Faq } from '@/components/common/Faq'
 import WorkTogetherSlider from '@/components/common/WorkTogetherSlider'
 import PageWrapper from '@/components/common/hoc/PageWrapper'
 import { AboutSection } from '@/components/pages/about/AboutSection'
@@ -24,14 +25,14 @@ const page = () => {
 
       <AboutSection title="Services I <span>Offered</span>" desc="Transforming Ideas into Innovative Reality, Elevate Your Vision with Our Expert <b>Product
                           Design and Development</b> Services!" />
-      <ServiceCard services={services} />
+      <ServiceCard title=" " services={services} />
       <div className="my-14 rounded-lg aspect-video overflow-hidden">
         <img src="/assets/img/blog/blog-img-1.jpg" alt="blog-img-1" className="h-full object-cover rounded-lg w-full" />
       </div>
       <WorkingWithSection />
       <FeedBackSection />
       <AwardSection />
-      {/* F&Q Section */}
+      <Faq/>
 
       <WorkTogetherSlider />
     </PageWrapper>

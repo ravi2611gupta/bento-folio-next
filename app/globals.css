@@ -84,3 +84,7 @@ header nav li a svg path {
 header nav li a:hover svg path {
 	stroke: var(--primary);
 }
+
+.about-title span {
+	color: var(--primary) !important;
+}
